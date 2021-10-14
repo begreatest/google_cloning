@@ -6,3 +6,70 @@
 .serch-bar {
   width : 500px;
 }
+a{
+  text-decoration: none;
+}
+#tools_box{
+  
+  text-align: right;
+  height:48px;
+  justify-content:space-between;
+  padding-bottom:8px;
+  padding-left:8px;
+  padding-right:8px;
+  padding-top:8px;
+  position:relative;
+  width:100%;
+  margin:0px;
+}
+#apps{
+  padding: 8px;
+  display: inline-block;
+}
+#account{
+  padding: 3px;
+  display: inline-block;
+}
+#gmail{
+  padding: 15px;
+  display: inline-block;
+  font-size:13px;
+  font-stretch:100%;
+  font-style:normal;
+  font-variant-caps:normal
+  
+}
+
+#image{
+  
+  display: inline-block;
+  padding: 15px;
+  font-size:13px;
+  font-stretch:100%;
+  font-style:normal;
+  font-variant-caps:normal;
+  
+}
+#serch{
+  padding-left: 45px;
+}
+label{
+  width: 850px;
+  height: 90px;
+}
+label {
+  position: relative;
+}
+
+label:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  background: url(search_black_24dp.svg);
+  background-repeat: no-repeat;
+  margin-top: 7px;
+  margin-left: 3px;
+}

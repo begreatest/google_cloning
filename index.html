@@ -7,17 +7,29 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+      <div id="tools_box">
+        <div>
+          <div id="image"><a href="https://www.google.co.kr/imghp?hl=ko&tab=ri&ogbl">이미지</a></div>
+          <div id="gmail"><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Gmail</a></div>
+          <div id="apps"><img src="apps_black_24dp.svg"></div>
+          <div id="account"><img src="account_circle_black_24dp.svg"></div>
+        </div>
+        
+      </div>
     
+    <section>
     <div id="google_logo">
         <a href="file:///Users/junghyun/google_cloning/index.html">
           <img src="google.svg">
         </a>
     </div>
-
-    <form action="https://www.google.com/search" method='get'>
-        <div class="mx-auto mt-5 serch-bar input-group mb-3">
-            <input name="q" type="text" class="form-control rounded-pill" placeholder="Google 검색 또는 URL 입력" aria-label="Recipient's username" aria-describedby="button-addon2">
-        </div>
-    </form>
+      <form action="https://www.google.com/search" method='get'>
+          <div class="mx-auto mt-5 serch-bar input-group mb-3">
+            <label>  
+              <input id="serch" name="q" type="text" class="form-control rounded-pill" placeholder="Google 검색 또는 URL 입력" aria-label="Recipient's username" aria-describedby="button-addon2">
+            </label>  
+          </div>
+      </form>
+    </section>
   </body>
 </html>
